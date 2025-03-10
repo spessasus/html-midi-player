@@ -8,11 +8,19 @@
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true,
     "allowUnreachableCode": false,
+    "allowJs": true,
     "pretty": true,
     "skipLibCheck": true,
     "target": "esnext",
-    "module": "es6",
-    "moduleResolution": "node"
+    "module": "esnext",
+    "moduleResolution": "node",
+    "lib": [
+      "esnext",
+      "dom",
+      "es5",
+      "es6",
+      "dom.iterable"
+    ]
   },
   "include": [
     "src/**/*"
